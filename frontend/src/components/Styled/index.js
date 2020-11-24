@@ -11,6 +11,7 @@ export const StyledHeader = styled.header`
   img {
     height: 140px;
     width: 150px;
+    padding-left: 100px;
   }
 
   .header-search {
