@@ -1,5 +1,11 @@
-const Layout = () => {
-  return <div style={{ display: 'flex' }}></div>
+import { StyledLayout } from "./Styled";
+
+const Layout = ({ children }) => {
+  return ( 
+  <StyledLayout>
+    { children }
+  </StyledLayout>
+  );
 };
 
 export default Layout;

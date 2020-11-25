@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
 
+export const StyledLayout = styled.div`
+  padding: 0 120px;
+  display: flex;
+`;
+
 export const StyledHeader = styled.header`
   display: flex;
   justify-content: space-around;
@@ -65,4 +70,10 @@ export const StyledCategory = styled.nav`
     padding: 0 20px 8px 20px;
     border-bottom: 2px solid #7e7474;
   }
+`;
+
+export const StyledBanner = styled.div`
+  width: 900px;
+  height: 500px;
+  background-color: gray;
 `;
