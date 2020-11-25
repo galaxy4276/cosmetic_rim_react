@@ -7,7 +7,10 @@ const Header = () => {
     <StyledHeader>
       <div className="header-search">
         <BsSearch />
-        <input className="header-search--input" />
+        <input 
+          className="header-search--input"
+          placeholder="검색하세요.."
+        />
       </div>
       <div className="header-logo" >
         <img 

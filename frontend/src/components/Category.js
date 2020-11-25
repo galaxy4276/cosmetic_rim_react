@@ -1,9 +1,11 @@
 import { StyledCategory } from './Styled';
+import { BsList } from 'react-icons/bs';
 
 const Category = () => {
   return (
     <StyledCategory>
       <div>
+        <BsList />
         카테고리
       </div>
       <div>
