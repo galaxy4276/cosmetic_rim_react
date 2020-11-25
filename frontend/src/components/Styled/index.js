@@ -38,7 +38,7 @@ export const StyledHeader = styled.header`
     li {
       margin: 0 10px;
       padding: 0 3px 3px 3px;
-      border-bottom: 2px solid #ffa45b;
+      border-bottom: 2px solid #7e7474;
     }
   }
 `;
@@ -49,4 +49,20 @@ export const StyledCategory = styled.nav`
   align-items: center;
   height: 100px;
   padding: 0 100px 0 100px;
+  font-weight: 600;
+  font-size: 20px;
+
+  div {
+    display: flex;
+    align-items: center;
+    
+    svg {
+      font-size: 25px;
+      margin-right: 5px;
+      margin-top: 3px;
+    }
+
+    padding: 0 20px 8px 20px;
+    border-bottom: 2px solid #7e7474;
+  }
 `;
